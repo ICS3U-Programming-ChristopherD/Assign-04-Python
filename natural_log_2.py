@@ -7,7 +7,7 @@
 
 
 # Function that calculates the accuracy of the calculated sum to the
-# true value of the natural log of 2
+# true value of the natural log of 2.
 def accuracy_perc(sum):
     NATLOG2 = 0.69314718056
     sum_accuracy = 100 - abs((NATLOG2 - sum) / NATLOG2 * 100)
